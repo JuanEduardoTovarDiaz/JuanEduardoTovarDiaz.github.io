@@ -1,0 +1,1269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+ 
+/* --- ESTILO DEL HEADER --- */
+
+.letra{
+    font-weight: bold;
+    font-size: 25px;
+    /*color: #ECAE03;*/
+    color: #003300;
+}
+
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-nav{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
+.navbar-custom {
+    /*background-color: #0033009*/
+    background-color: #DCDFD7;
+}
+
+.navbar-custom .navbar-nav>.active>a:hover,
+.navbar-custom .navbar-nav>li>a:hover,
+.navbar-custom .navbar-nav>li>a:focus {
+    /*background-color: #002200;*/
+    background-color: #b2b5ac;
+    border-radius: 7px;
+}
+.navbar-custom .navbar-nav>.active>a,
+.navbar-custom .navbar-nav>.open>a,
+.navbar-custom .navbar-nav>.open>a,
+.navbar-custom .navbar-nav>.open>a:hover,
+.navbar-custom .navbar-nav>.open>a,
+.navbar-custom .navbar-nav>.open>a:hover,
+.navbar-custom .navbar-nav>.open>a:focus {
+    background-color: #003300
+}
+.navbar-custom {
+    border-color: #003300
+}
+  
+.navbar-custom .navbar-brand {
+    /*color: #FFFFFF*/
+    color: black;
+}
+
+.navbar-custom .navbar-brand:hover {
+    /*color: #FFCC00*/
+    color: #003300;
+}
+
+.navbar-custom .navbar-nav>li>a {
+    /*color: #FFFFFF*/
+    color: black;
+}
+
+.navbar-custom .navbar-nav>li>a:hover,
+.navbar-custom .navbar-nav>li>a:focus {
+    /*color: #FFCC00*/
+    color: #003300;
+    
+}
+
+.navbar-custom .navbar-nav>.active>a,
+.navbar-custom .navbar-nav>.open>a,
+.navbar-custom .navbar-nav>.open>a:hover,
+.navbar-custom .navbar-nav>.open>a:focus {
+    /*color: #FFCC00*/
+    color: #003300;
+}
+
+.navbar-custom .navbar-nav>.active>a:hover,
+.navbar-custom .navbar-nav>.active>a:focus {
+    /*color: #FFCC00*/
+    color: #003300;
+}
+
+.navbar-custom .dropdown-menu{
+    /*background-color: #003300;*/
+    background-color: #DCDFD7;
+    /*border-color: #002200;*/
+    border-color: #b2b5ac;
+    border-width: 3px;
+    font-size: 13.5px;
+}
+
+/*
+.navbar-custom .dropdown:hover .dropdown-menu {
+    display: block;
+}*/
+/*
+.selectpicker{
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    color:white;
+    padding: 7px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+.selectpicker>option{
+    color: black;
+    font-size: 13px;
+}
+*/
+/*
+.navbar-custom .dropdown-menu {
+    margin-top: 0px;
+}
+*/
+/*
+.navbar-custom .dropdown-menu>.active>a,
+.navbar-custom .dropdown-menu>.open>a,
+.navbar-custom .dropdown-menu>.open>a,
+.navbar-custom .dropdown-menu>.open>a:hover,
+.navbar-custom .dropdown-menu>.open>a,
+.navbar-custom .dropdown-menu>.open>a:hover,
+.navbar-custom .navbar-nav>.open>a:focus {
+    background-color: #003300
+}
+*/
+.navbar-custom .dropdown-menu .dropdown-item{
+    /*color: #FFFFFF;*/
+    color: black;
+}
+
+.navbar-custom .dropdown-menu .dropdown-item:hover,
+.navbar-custom .dropdown-menu .dropdown-item:focus {
+    /*background-color: #002200;*/
+    background-color: #b2b5ac;
+    /*color: #FFCC00;*/
+    color: #003300;
+}
+
+
+/* --- ESTILO DEL FOOTER --- */
+footer{
+    font-family: 'Poppins', sans-serif;
+    background: -webkit-linear-gradient(59deg, #003300, #0d6917);
+    background: linear-gradient(59deg, #003300,#0d6917);
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* --- ESTILO ICONOS DEL FOOTER --- */
+.iconosfooter{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #06450e;
+}
+.iconosfooter:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+/*buffer para columnas*/
+.bottom-buffer { padding-bottom:35px; }
+
+
+/*  ------  CLASES PÁGINA DE INICIO  ------  */
+
+.cuidamosNegocio{
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.contenidoNegocio{
+    width: 100%;
+    text-align: center;
+}
+
+.ventajas{
+    text-align: center;
+    position: absolute;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.ventaja{
+    display: flex;
+}
+
+.ventaja img{
+    width: 20%;
+}
+
+.bannervideo{
+    position: relative;
+    background-color: black;
+    height: 94vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+.bannervideo video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    
+}
+.bannervideo .container {
+    position: relative;
+    z-index: 2;
+}
+.bannervideo .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+    .bannervideo {
+      background: url('https://images.unsplash.com/photo-1544761634-dc512f2238a3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80') black no-repeat center center scroll;
+    }
+    .bannervideo video {
+      display: none;
+    }
+}
+
+.service{
+    background-image: url("../images/Servicios/NuestrosServicios.jpg") !important;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 536px;   
+}
+
+.service span{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 15px;
+    background-color: rgb(0,0,0,0.80);
+}
+
+.servicios{
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.servicios span{
+    background-color: rgb(0,0,0,0.80);
+    padding: 15px;
+}
+
+.servicios img{
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.servicioImg{
+    margin: auto;
+    border-radius: 50%;
+    border: white 1px solid;
+    height: 10rem;
+    width: 10rem;
+}
+
+.servicioImg2{
+    margin: auto;
+    border-radius: 20%;
+    height: 18rem;
+    width: 18rem;
+}
+
+
+#servicio1{
+    background-image: url("../images/Servicios/AsesoriaContable.jpg");
+    background-size: cover;
+}
+
+
+#servicio2{
+    background-image: url("../images/Servicios/AsesoriaFiscal.jpg");
+    background-size: cover;
+}
+
+#servicio3{
+    background-image: url("../images/Servicios/AdministracionNomina.jpg");
+    background-size: cover;
+}
+
+#servicio4{
+    background-image: url("../images/Servicios/Auditoria.jpg");
+    background-size: cover;
+}
+
+#servicio5{
+    background-image: url("../images/Servicios/ContabilidadGubernamental.jpg");
+    background-size: cover; 
+}
+
+.servicio{
+    transition: transform .2s;
+}
+
+.servicio:hover{
+    transform: scale(1.1);
+}
+
+.servicio p{
+    color: black;
+}
+
+.ventajasImg{
+    margin: auto;
+    border-radius: 50%;
+    border: black 1px solid;
+    height: 10rem;
+    width: 10rem;
+}
+
+/**/
+.imagen-col{
+    background-image: url("../images/Diagnostico_Fiscal/loquesea.jpg");
+    background-size: cover !important;
+}
+
+.imagen-col2{
+    background-image: url("../images/Diagnostico_Fiscal/asesoriaTemas.jpg") !important;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.imagen-col2 span{
+    background-color: rgb(0,0,0,0.7);
+    padding: 5px 10px 5px 10px;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+.fiscalImg{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.fiscalImg h4{
+    font-size: 2rem; 
+    font-weight: 700; 
+    text-align: center;
+}
+
+.textoFiscal{
+    text-align: center; 
+    height: 400px; 
+    padding:2rem; 
+    align-items: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.diagnosticoImgT{
+    color: white;
+}
+
+/* ------ WHATSAPP BUTTON ----- */
+
+.float{
+    position:fixed;
+	width:60px;
+	height:60px;
+	bottom:25px;
+	right:40px;
+	background-color:#25D366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+    box-shadow: -1px 2px 5px #999;
+    z-index:100;
+}
+
+.float:hover {
+	text-decoration: none;
+	color: #075E54;
+    background-color:#fff;
+    transition: background-color 2s, color 2s;
+}
+
+.button-float{
+    position:fixed;
+	bottom:0px;
+	right:17px;
+	text-align:center;
+    font-size:18px;
+    z-index:100;
+}
+
+.my-float{
+	position:fixed;
+	width:60px;
+    margin:0%;
+    padding:13px;
+	height:60px;
+	bottom:25px; 
+	right:40px;
+	background-color:#25D366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:35px;
+	box-shadow: -3px 2px 6px #999;
+    z-index:100;
+    transition: background-color .8s, color .8s;
+}
+
+.my-float:hover {
+	text-decoration: none;
+	color: #075E54;
+    background-color:#fff;
+    transition: background-color .8s, color .8s;
+}
+
+/* ---- NOSOTROS ------*/
+
+#img-cv{
+    width: 95%;
+}
+
+.jt-nosotros{
+    /* The image used */ 
+    background-image: url("../images/Nosotros/acnDespacho.jpg");
+    /* Full height */
+    height: 22rem;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    position: relative;
+}
+
+
+.jt-text span{
+    background-color: rgb(246,246,246,0.6);
+    padding: 0px 10px 0px 10px;
+}
+
+@media (max-width: 544px){
+    .jt-text-title span{
+        font-size: 36px;
+    }
+}
+
+.serv-decor{
+    border-radius: 50%;
+    border: 3px solid gray;
+    height: 10rem;
+    width: 10rem;
+}
+
+.custombg{    
+    background: linear-gradient(-45deg, #ffd500, #fabe46,#f9ff45, #fcff96 );
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+.custombgreen{    
+    background: linear-gradient(-45deg, #47cc4e, #96e39a,#acff59, #c6ff8c );
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.firma{
+    background-image: url("../images/Nosotros/firma.jpg") !important;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.firma span{
+    background-color: rgb(0,0,0,0.6);
+    padding: 0px 10px 0px 10px;
+    color: white;
+    font-size: 30px;
+}
+@media (max-width: 765px){
+    .cl2{
+        padding-top: 20px;
+    }
+}
+
+.df-imagen{
+    background-image: url("../images/Diagnostico_Fiscal/loquesea.jpg") !important;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.df-imagen span{
+    background-color: rgb(0,0,0,0.7);
+    padding: 5px 10px 5px 10px;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 765px){
+    .cl3{
+        padding-top: 20px;
+    }
+}
+/*
+
+/* ----- ESTILOS PÁGINA NUESTROS SERVICIOS -----*/
+
+.imgServicios{
+    width: 10%;
+}
+
+
+
+/*  ------  SERVICIOS INICIO ------  
+
+.servI{
+    text-decoration: none;
+    color: black;
+}
+
+.servI:hover{
+    color: black;
+}
+*/
+.servI{
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.servI:hover, a:focus {
+    color: black;
+    text-decoration: none;
+    background-size: 100% 2px;
+}
+
+
+.servicios_banner{
+    /* The image used */
+    background-image: url("../images/Banner/BannerServicios.jpg");
+    /* Full height */
+    height: 22rem;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    position: relative;
+}
+.servicios_banner span{
+    background-color: rgb(167,185,197,0.6);
+    padding: 0px 10px 0px 10px;
+}
+.contactanos_banner{
+    /* The image used */
+    background-image: url("../images/Banner/ContactanosBanner.jpg");
+    /* Full height */
+    height: 22rem;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    position: relative;
+}
+
+.bolsatrabajo_banner{
+    /* The image used */
+    background-image: url("../images/Banner/BolsaTrabajoBanner.jpg");
+    /* Full height */
+    height: 22rem;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    position: relative;
+}
+.bolsatrabajo_banner span{
+    background-color: rgb(227,227,223,0.6);
+    padding: 0px 10px 0px 10px;
+}
+
+/* ASESORIA FINANCIERA */
+
+.asesoria_financiera_banner{
+    /* The image used */
+    background-image: url("../images/Servicios/AsesoriaContable.jpg");
+    /* Full height */
+    height: 22rem;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    position: relative;
+}
+
+.asesoria_financiera_banner::after{
+    content: "";
+    background: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.serviciosACImg{
+    padding: 20px;
+}
+
+.serviciosACN{
+    padding: 20px;
+}
+
+.servicios_financieros{
+    padding: 50px 130px 50px 130px; 
+    line-height: 220%;
+    background-image: url("../images/Servicios/ServiciosAC.jpg");
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    line-height: 220%;
+}
+.servicios_financieros::after{
+    content: "";
+    background: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.contenido_financiero{
+    z-index: 10;
+    color: white;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 20px 60px;
+}
+
+
+
+/* ASESORIA FISCAL */
+.asesoria_fiscal_banner{
+  /* The image used */
+  background-image: url("../images/Servicios/AsesoriaFiscal.jpg");
+
+  /* Full height */
+  height: 22rem;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position:relative;
+  margin: 0;
+}
+
+.asesoria_fiscal_banner::after{
+    content: "";
+    background: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.contenido_fiscal{
+    z-index: 10;
+    color: white;
+    position: relative;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 20px 20px;
+}
+
+.servicios_fiscales{
+    padding: 50px 100px 50px 100px;
+    line-height: 200%;
+    background-image: url("../images/Servicios/ServiciosAC.jpg");
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.servicios_fiscales::after{
+    content: "";
+    background: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+/* AUDITORIA */
+
+.auditoria_banner{
+    background-image: url("../images/Servicios/Auditoria.jpg");
+
+    /* Full height */
+    height: 22rem;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    position: relative;
+    margin: 0;
+}
+
+.auditoria_banner::after{
+    content: "";
+    background: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.servicios_auditoria{
+    padding: 50px 100px 50px 100px;
+    line-height: 200%;
+    background-image: url("../images/Servicios/ServiciosAC.jpg");
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.servicios_auditoria::after{
+    content: "";
+    background: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.contenido_auditoria{
+    z-index: 10;
+    color: white;
+    position: relative;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    font-size: larger;
+    padding: 20px 60px;
+}
+
+/* CONTABILIDAD GUBERNAMENTAL */
+
+.contabilidad_banner{
+    background-image: url("../images/Servicios/ContabilidadGubernamental.jpg");
+
+    /* Full height */
+    height: 22rem;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    position: relative;
+    margin: 0;
+}
+
+.contabilidad_banner::after{
+    content: "";
+    background: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.servicios_contabilidad{
+    padding: 50px 250px 50px 250px;
+    line-height: 200%;
+    background-image: url("../images/Servicios/ServiciosAC.jpg");
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.servicios_contabilidad::after{
+    content: "";
+    background: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.contenido_contabilidad{
+    z-index: 10;
+    color: white;
+    position: relative;
+    margin: auto;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    font-size: larger;
+    padding: 20px 70px;
+}
+
+
+
+/* ADMINISTRACION NOMINA */
+
+.administracion_nomina_banner{
+    background-image: url("../images/Servicios/AdministracionNomina.jpg");
+
+    /* Full height */
+    height: 22rem;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    position: relative;
+    margin: 0;
+}
+
+.administracion_nomina_banner::after{
+    content: "";
+    background: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.servicios_nomina{
+    padding: 50px 100px 50px 100px;
+    line-height: 200%;
+    background-image: url("../images/Servicios/ServiciosAC.jpg");
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.servicios_nomina::after{
+    content: "";
+    background: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.contenido_nomina{
+    z-index: 10;
+    color: white;
+    position: relative;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 10px 10px;
+
+}
+
+.headline{
+    z-index: 10;
+    color: white;
+    position: relative;
+    bottom: 45%;
+}
+
+/*  ----- BANNER VIDEO INICIO -----   */
+
+.ParaVideo video{
+	width: 100%;
+	position: fixed;
+	margin-top: 0px;
+	top: 0;
+	z-index: -999;
+}
+
+@media (max-width: 455px){
+    .ParaVideo video{
+        width: 100%;
+        position: fixed;
+        margin-top: 65px;
+        top: 0;
+        z-index: -999;
+    }
+}
+
+.banncont{
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    padding: 10px 2px;
+}
+
+
+.bann{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 600px;
+}
+
+.bann h1{
+    font-weight: bold;
+}
+
+@media (max-width: 720px) {
+    .bann{
+        height: 180px;
+    }
+    .bann img{
+        width: 80px;
+    }
+    .bann h1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .bann p{
+        font-size: 8px;
+    }
+    .experiencia .h1{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .experiencia p{
+        font-size: 16px;
+    }
+    .misYvis p{
+        font-size: 16px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .descripcion h5{
+        font-size: 13px;
+    }
+    .descripcion h3{
+        font-size: 20px;
+    }
+}
+
+.bcw{
+    background-color: white;
+}
+
+/* NUESTRO SERVICIOS - PARALLAX*/
+.ParaImage{
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.bg1{
+	background-image: url("../images/Servicios/Fondo9.jpg");
+}
+
+.bgAC{
+    background-image: url("../images/Servicios/ServiciosAC.jpg");
+}
+
+.contactanosiconos{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: black;
+}
+.contactanosiconos:hover{
+    opacity: 0.7;
+}
+
+.iconContactanos{
+    font-size: 50px;
+    color: #003300;
+    padding: 5px; 
+    margin-left:0px;
+}
+
+
+form .gridIn{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 5px;
+}
+
+form label{
+    color: #333;
+    font-size: 16px;
+    position: relative;
+    font-weight: bold;
+}
+
+form span{
+    color: red;
+}
+
+.estiloInput{
+    background-color: rgba(112, 224, 0, 0.2);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #007200;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #333;
+    width: 80%;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+
+.bolsaTrabajo{
+    padding: 50px;
+    background-image: url("../images/Contactanos/trabaja.jpg");
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-weight: bold;
+}
+
+.back{
+    z-index: 10;
+}
+
+.bolsaTrabajo::after{
+    content: "";
+    background: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.ventajasInc a{
+    text-decoration: none;
+    color: black;
+}
+
+.card-servicios-bg{
+    background: linear-gradient(-45deg, #ffd500, #fabe46,#f9ff45, #fcff96 );
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+.formContact{
+    padding-left: 3%;
+}
+
+@media (max-width: 455px){
+    /*
+    .navbar-brand{
+        font-size: 11.35px;
+    }
+    .letra{
+        font-size: 11.35px;
+    }
+    */
+    .nvtext{
+        display:none;
+    }
+    .letra{
+        display:inline-block;
+    }
+    .navbar-custom .dropdown-menu{
+        font-size: 10.5px;
+    }
+    /*--------------*/
+    
+    .contenido_financiero{
+        font-size: 15px;
+        padding: 20px 10px;
+    }
+    .servicios_financieros{
+        padding: 15px 25px 15px 25px; 
+        line-height: 150%;
+    }
+    
+    /*--------------*/
+    
+    .contenido_auditoria{
+        font-size: 17px;
+        padding: 10px 15px;
+        margin-right: 0px;
+    }
+    .servicios_auditoria{
+        padding: 15px 25px 15px 25px; 
+        line-height: 150%;
+    }
+
+    /*--------------*/
+    
+    .contenido_fiscal{
+        font-size: 17px;
+        padding: 10px 15px;
+        margin-right: 0px;
+    }
+    .servicios_fiscales{
+        padding: 15px 20px 15px 20px; 
+        line-height: 150%;
+    }
+
+    /*--------------*/
+
+    .administracion_nomina_banner span{
+        font-size: 40px;
+    }
+
+    .contenido_nomina{
+        font-size: 17px;
+        padding: 10px 10px;
+    }
+
+    .servicios_nomina {
+        padding: 15px 20px 15px 20px; 
+        line-height: 150%;
+    }
+
+    /*--------------*/
+
+    .contabilidad_banner span{
+        font-size: 40px;
+    }
+
+    .servicios_contabilidad{
+        padding: 15px 25px 15px 25px; 
+        line-height: 150%;
+    }
+
+    .contenido_contabilidad{
+        font-size: 15px;
+        padding: 20px 10px;
+    }
+
+}
